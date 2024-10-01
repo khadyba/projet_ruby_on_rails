@@ -1,0 +1,23 @@
+<h2> Toutes les Blagues</h2>
+<br>
+<% if @blagues.present? %>
+  <% @blagues.each do |blague| %>
+    <div>Nom : 
+      <%= blague.nom %>
+    </div>
+    <div>Contenue : 
+      <%= blague.contenue %>
+    </div>
+    <div>Publié par : 
+      <%= blague.auteur %>
+    </div>
+
+    <div>
+      <%= <%= link_to "Show",  %> %>
+    </div>
+
+    <hr>
+  <% end %>
+<% else %>
+  <p>Aucune blague trouvée.</p>
+<% end %>

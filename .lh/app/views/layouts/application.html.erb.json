@@ -1,0 +1,38 @@
+{
+    "sourceFile": "app/views/layouts/application.html.erb",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1727774535036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727774636206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n     <title>BlaguesDroles</title>\n     <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n     <%= csrf_meta_tags %>\n     <%= csp_meta_tag %>\n+    \n     <%= stylesheet_link_tag \"application\", \"data-turbo-track\": \"reload\" %>\n     <%= javascript_importmap_tags %>\n   </head>\n \n"
+                },
+                {
+                    "date": 1727775568501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,13 +2,13 @@\n <html>\n   <head>\n     <title>BlaguesDroles</title>\n     <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n-    <%= csrf_meta_tags %>\n     <%= csp_meta_tag %>\n-    \n+\n     <%= stylesheet_link_tag \"application\", \"data-turbo-track\": \"reload\" %>\n     <%= javascript_importmap_tags %>\n+    <%= csrf_meta_tags %>\n   </head>\n \n   <body>\n     <%= yield %>\n"
+                },
+                {
+                    "date": 1727775630898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,6 @@\n     <%= csrf_meta_tags %>\n   </head>\n \n   <body>\n-    <%= yield %>\n-  </body>\n-</html>\n+    <%= yield %>24\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727775636034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,6 +10,5 @@\n     <%= csrf_meta_tags %>\n   </head>\n \n   <body>\n-    <%= yield %>24\n-    \n\\ No newline at end of file\n+    <%= yield %>\n"
+                },
+                {
+                    "date": 1727776222613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,15 @@\n <!DOCTYPE html>\n <html>\n-  <head>\n-    <title>BlaguesDroles</title>\n-    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n-    <%= csp_meta_tag %>\n+<head>\n+  <title>YourAppName</title>\n+  <%= csrf_meta_tags %>\n+  <%= csp_meta_tag %>\n+  \n+  <%= stylesheet_link_tag \"application\", \"data-turbo-track\" => \"reload\" %>\n+  <%= javascript_importmap_tags %>\n+</head>\n \n-    <%= stylesheet_link_tag \"application\", \"data-turbo-track\": \"reload\" %>\n-    <%= javascript_importmap_tags %>\n-    <%= csrf_meta_tags %>\n-  </head>\n-\n-  <body>\n-    <%= yield %>\n+<body>\n+  <%= yield %>\n+</body>\n+</html>\n"
+                }
+            ],
+            "date": 1727774535036,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>BlaguesDroles</title>\n    <meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n    <%= csrf_meta_tags %>\n    <%= csp_meta_tag %>\n    <%= stylesheet_link_tag \"application\", \"data-turbo-track\": \"reload\" %>\n    <%= javascript_importmap_tags %>\n  </head>\n\n  <body>\n    <%= yield %>\n  </body>\n</html>\n"
+        }
+    ]
+}

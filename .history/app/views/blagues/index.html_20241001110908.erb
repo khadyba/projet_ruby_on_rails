@@ -1,0 +1,36 @@
+<h2> Toutes les Blagues</h2>
+<br>
+ <div> Publier une nouvelle blagues
+      <%= link_to "Ajoutez Blague",   new_blague_path() %>
+  </div>
+<% if @blagues.present? %>
+  <% @blagues.each do |blague| %>
+    <div>Nom : 
+      <%= blague.nom %>
+    </div>
+    <div>Contenue : 
+      <%= blague.contenue %>
+    </div>
+    <div>Publié par : 
+      <%= blague.auteur %>
+    </div>
+
+    <div>
+    <%= link_to "Voir la blague", blague_path(blague) %>
+    </div>
+
+    <div>
+      <%= link_to "Modifier la blague", edit_blague_path(blague) %>
+    </div>
+
+  <div>
+  <%= link_to "Supprimer la blague",
+   blague_path(blague), method: :delete, data: { confirm: "Es-tu sûr de vouloir supprimer cette blague ?", turbo: false } %>
+  </div>
+
+  
+    <hr>
+  <% end %>
+<% else %>
+  <p>Aucune blague trouvée.</p>
+<% end %>

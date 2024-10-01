@@ -1,0 +1,1 @@
+class blaguesController < ApplicationController

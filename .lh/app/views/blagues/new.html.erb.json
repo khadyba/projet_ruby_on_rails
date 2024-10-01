@@ -1,0 +1,394 @@
+{
+    "sourceFile": "app/views/blagues/new.html.erb",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 94,
+            "patches": [
+                {
+                    "date": 1727697251883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727697257616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div>\n\\ No newline at end of file\n+<div></div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697268272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div></div>\n\\ No newline at end of file\n+<dh2></dh2>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697274711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<dh2></dh2>\n\\ No newline at end of file\n+<h2> </h2>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697280361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<h2> </h2>\n\\ No newline at end of file\n+<h2> pU </h2>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697290075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<h2> pU </h2>\n\\ No newline at end of file\n+<h2> Publiér une nouvelle  </h2>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702036502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-<h2> Publiér une nouvelle  </h2>\n\\ No newline at end of file\n+<h2> Publiér une nouvelle blague </h2>\n+\n"
+                },
+                {
+                    "date": 1727702206497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n+<%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702214532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%>\n\\ No newline at end of file\n+<%=  %>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702220758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%=  %>\n\\ No newline at end of file\n+<%= form_w %>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702247487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%= form_w %>\n\\ No newline at end of file\n+<%= for %>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702260042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%= for %>\n\\ No newline at end of file\n+form\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702267512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-form\n\\ No newline at end of file\n+form_w\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702281079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-form_w\n\\ No newline at end of file\n+<%= form_tag( 'path' , remote: true) do |f| %>\n+<% end %>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702292711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%= form_tag( 'path' , remote: true) do |f| %>\n-<% end %>\n\\ No newline at end of file\n+<%= form %>\n"
+                },
+                {
+                    "date": 1727702302473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%= form %>\n+<%= form_with model %>\n"
+                },
+                {
+                    "date": 1727702308175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%= form_with model %>\n+<%= form_with model: @ %>\n"
+                },
+                {
+                    "date": 1727702320534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%= form_with model: @ %>\n+<%= form_with model: @blague, %>\n"
+                },
+                {
+                    "date": 1727702330786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%= form_with model: @blague, %>\n+<%= form_with model: @blague, local: %>\n"
+                },
+                {
+                    "date": 1727702339044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%= form_with model: @blague, local: %>\n+<%= form_with model: @blague, local: true do %>\n"
+                },
+                {
+                    "date": 1727702344867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%= form_with model: @blague, local: true do %>\n+<%= form_with model: @blague, local: true do |form| %>\n"
+                },
+                {
+                    "date": 1727702357792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n+<%>\n"
+                },
+                {
+                    "date": 1727702368094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n-<%>\n+<% end %>\n"
+                },
+                {
+                    "date": 1727702373189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n-<% end %>\n+<%end%>\n"
+                },
+                {
+                    "date": 1727702394916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n+\n+\n <%end%>\n"
+                },
+                {
+                    "date": 1727702401782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n+<p><>\n \n-\n <%end%>\n"
+                },
+                {
+                    "date": 1727702408190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n-<p><>\n+<p>\n \n+</p>\n+\n <%end%>\n"
+                },
+                {
+                    "date": 1727702416845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n-\n+<%>\n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702422280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n-<%>\n+<%= %>\n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702428671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n-<%= %>\n+<%= form %>\n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702434345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n-<%= form %>\n+<%= form.label %>\n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702453400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n-<%= form.label %>\n+<%= form.label : %>\n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702463524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n-<%= form.label : %>\n+<%= form.label :nom %>\n+<%= form.label :nom %>\n+\n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702470444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n <%= form.label :nom %>\n-<%= form.label :nom %>\n+<%= form.tes :nom %>\n \n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702477431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n <%= form.label :nom %>\n-<%= form.tes :nom %>\n+<%= form.<%= text_field_tag (:id_name) %> :nom %>\n \n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702489879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n <%= form.label :nom %>\n-<%= form.<%= text_field_tag (:id_name) %> :nom %>\n+<%= form.text :nom %>\n \n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702498458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n <%= form.label :nom %>\n-<%= form.text :nom %>\n+<%= form.text_fiel  :nom %>\n \n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702519063,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n <%= form_with model: @blague, local: true do |form| %>\n <p>\n <%= form.label :nom %>\n-<%= form.text_fiel  :nom %>\n+<%= form.text_field  :nom %>\n \n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702525264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,7 @@\n <%= form_with model: @blague, local: true do |form| %>\n <p>\n <%= form.label :nom %>\n <%= form.text_field  :nom %>\n-\n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702544019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,18 @@\n <h2> Publiér une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n+\n <p>\n <%= form.label :nom %>\n <%= form.text_field  :nom %>\n </p>\n+<p>\n+<%= form.label :nom %>\n+<%= form.text_field  :nom %>\n+</p>\n+<p>\n+<%= form.label :nom %>\n+<%= form.text_field  :nom %>\n+</p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702550022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n <%= form.label :nom %>\n <%= form.text_field  :nom %>\n </p>\n <p>\n-<%= form.label :nom %>\n+<%= form.label :contenue %>\n <%= form.text_field  :nom %>\n </p>\n <p>\n <%= form.label :nom %>\n"
+                },
+                {
+                    "date": 1727702558359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,12 @@\n <%= form.text_field  :nom %>\n </p>\n <p>\n <%= form.label :contenue %>\n-<%= form.text_field  :nom %>\n+<%= form.text_field  :contenue %>\n </p>\n <p>\n-<%= form.label :nom %>\n+<%= form.label :auteur %>\n <%= form.text_field  :nom %>\n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702576729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,14 +5,15 @@\n <p>\n <%= form.label :nom %>\n <%= form.text_field  :nom %>\n </p>\n+\n <p>\n <%= form.label :contenue %>\n <%= form.text_field  :contenue %>\n </p>\n <p>\n <%= form.label :auteur %>\n-<%= form.text_field  :nom %>\n+<%= form.text_field  :auteur %>\n </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702602131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,11 @@\n </p>\n \n <p>\n <%= form.label :contenue %>\n-<%= form.text_field  :contenue %>\n+<%= form.text_ar  :contenue %>\n </p>\n+\n <p>\n <%= form.label :auteur %>\n <%= form.text_field  :auteur %>\n </p>\n"
+                },
+                {
+                    "date": 1727702608419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n </p>\n \n <p>\n <%= form.label :contenue %>\n-<%= form.text_ar  :contenue %>\n+<%= form.text_ara  :contenue %>\n </p>\n \n <p>\n <%= form.label :auteur %>\n"
+                },
+                {
+                    "date": 1727702640552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,13 +8,14 @@\n </p>\n \n <p>\n <%= form.label :contenue %>\n-<%= form.text_ara  :contenue %>\n+<%= form.text_area  :contenue %>\n </p>\n \n <p>\n <%= form.label :auteur %>\n <%= form.text_field  :auteur %>\n </p>\n \n+\n <%end%>\n"
+                },
+                {
+                    "date": 1727702656014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,21 +1,21 @@\n <h2> Publiér une nouvelle blague </h2>\n \n-<%= form_with model: @blague, local: true do |form| %>\n+    <%= form_with model: @blague, local: true do |form| %>\n \n-<p>\n-<%= form.label :nom %>\n-<%= form.text_field  :nom %>\n-</p>\n+    <p>\n+    <%= form.label :nom %>\n+    <%= form.text_field  :nom %>\n+    </p>\n \n-<p>\n-<%= form.label :contenue %>\n-<%= form.text_area  :contenue %>\n-</p>\n+    <p>\n+    <%= form.label :contenue %>\n+    <%= form.text_area  :contenue %>\n+    </p>\n \n-<p>\n-<%= form.label :auteur %>\n-<%= form.text_field  :auteur %>\n-</p>\n+    <p>\n+    <%= form.label :auteur %>\n+    <%= form.text_field  :auteur %>\n+    </p>\n+    \n \n-\n <%end%>\n"
+                },
+                {
+                    "date": 1727702662884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,7 +15,7 @@\n     <p>\n     <%= form.label :auteur %>\n     <%= form.text_field  :auteur %>\n     </p>\n-    \n+    <p><>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702668519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,7 +15,8 @@\n     <p>\n     <%= form.label :auteur %>\n     <%= form.text_field  :auteur %>\n     </p>\n-    <p><>\n+    <p>\n+    </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702674669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,9 @@\n     <%= form.label :auteur %>\n     <%= form.text_field  :auteur %>\n     </p>\n     <p>\n+    <%= form.label :auteur %>\n+\n     </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702708534,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <%= form.label :auteur %>\n     <%= form.text_field  :auteur %>\n     </p>\n     <p>\n-    <%= form.label :auteur %>\n+    <%= form %>\n \n     </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702714836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <%= form.label :auteur %>\n     <%= form.text_field  :auteur %>\n     </p>\n     <p>\n-    <%= form %>\n+    <%= form.submit %>\n \n     </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702852515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n     <%= form.label :auteur %>\n     <%= form.text_field  :auteur %>\n     </p>\n     <p>\n-    <%= form.submit %>\n+    <%= form.submit \"publier la blague\" %>\n \n     </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727702878000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,7 @@\n     <%= form.text_field  :auteur %>\n     </p>\n     <p>\n     <%= form.submit \"publier la blague\" %>\n-\n     </p>\n \n <%end%>\n"
+                },
+                {
+                    "date": 1727705021426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,11 @@\n     <p>\n     <%= form.label :auteur %>\n     <%= form.text_field  :auteur %>\n     </p>\n+\n     <p>\n     <%= form.submit \"publier la blague\" %>\n     </p>\n \n+\n <%end%>\n"
+                },
+                {
+                    "date": 1727705067604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n     <%= form_with model: @blague, local: true do |form| %>\n+    <%= form.label :nom %>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705073622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n     <%= form_with model: @blague, local: true do |form| %>\n-    <%= form.label :nom %>\n+    <%= if %>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705087513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n     <%= form_with model: @blague, local: true do |form| %>\n-    <%= if %>\n+    <% if @blague %>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705094276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n     <%= form_with model: @blague, local: true do |form| %>\n-    <% if @blague %>\n+    <% if @blague.error %>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705103294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n     <%= form_with model: @blague, local: true do |form| %>\n-    <% if @blague.error %>\n+    <% if @blague.error.a %>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705108825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publiér une nouvelle blague </h2>\n \n     <%= form_with model: @blague, local: true do |form| %>\n-    <% if @blague.error.a %>\n+    <% if @blague.errors.any %>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705122535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n <h2> Publiér une nouvelle blague </h2>\n \n     <%= form_with model: @blague, local: true do |form| %>\n-    <% if @blague.errors.any %>\n \n+    <% if @blague.errors.any? %>\n+\n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n     </p>\n"
+                },
+                {
+                    "date": 1727705129786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n \n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n+    <h>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705140347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n-    <h>\n+    <h2><>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705151916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n-    <h2><>\n+    <h2> </h2>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705165188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n-    <h2> </h2>\n+    <h2> Une erreur </h2>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705170625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n-    <h2> Une erreur </h2>\n+    <h2> Une erreur est survenue </h2>\n \n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n"
+                },
+                {
+                    "date": 1727705197790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue </h2>\n-\n+   <%>\n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n     </p>\n"
+                },
+                {
+                    "date": 1727705204637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue </h2>\n-   <%>\n+   <%end%>\n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n     </p>\n"
+                },
+                {
+                    "date": 1727705222657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue </h2>\n-   <%end%>\n+    <%end%>\n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n     </p>\n"
+                },
+                {
+                    "date": 1727705362502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue </h2>\n-    <%end%>\n+    <% end%>\n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n     </p>\n"
+                },
+                {
+                    "date": 1727705471154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,11 @@\n \n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n+    \n     <h2> Une erreur est survenue </h2>\n-    <% end%>\n+    <% end %>\n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n     </p>\n"
+                },
+                {
+                    "date": 1727705476425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,10 @@\n \n     <%= form_with model: @blague, local: true do |form| %>\n \n     <% if @blague.errors.any? %>\n-    \n     <h2> Une erreur est survenue </h2>\n-    <% end %>\n+    <%end %>\n     <p>\n     <%= form.label :nom %>\n     <%= form.text_field  :nom %>\n     </p>\n"
+                },
+                {
+                    "date": 1727705680348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,28 +1,33 @@\n-<h2> Publiér une nouvelle blague </h2>\n+<h2> Publier une nouvelle blague </h2>\n \n-    <%= form_with model: @blague, local: true do |form| %>\n+<%= form_with model: @blague, local: true do |form| %>\n \n-    <% if @blague.errors.any? %>\n-    <h2> Une erreur est survenue </h2>\n-    <%end %>\n-    <p>\n+  <% if @blague.errors.any? %>\n+    <h2> Une erreur est survenue :</h2>\n+    <ul>\n+      <% @blague.errors.full_messages.each do |message| %>\n+        <li><%= message %></li>\n+      <% end %>\n+    </ul>\n+  <% end %>\n+\n+  <p>\n     <%= form.label :nom %>\n-    <%= form.text_field  :nom %>\n-    </p>\n+    <%= form.text_field :nom %>\n+  </p>\n \n-    <p>\n+  <p>\n     <%= form.label :contenue %>\n-    <%= form.text_area  :contenue %>\n-    </p>\n+    <%= form.text_area :contenue %>\n+  </p>\n \n-    <p>\n+  <p>\n     <%= form.label :auteur %>\n-    <%= form.text_field  :auteur %>\n-    </p>\n+    <%= form.text_field :auteur %>\n+  </p>\n \n-    <p>\n-    <%= form.submit \"publier la blague\" %>\n-    </p>\n+  <p>\n+    <%= form.submit \"Publier la blague\" %>\n+  </p>\n \n-\n-<%end%>\n+<% end %>\n"
+                },
+                {
+                    "date": 1727705687701,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,12 @@\n <h2> Publier une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n-\n+<%\n+=begin%>\n+  \n+<%\n+=end%>\n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n     <ul>\n       <% @blague.errors.full_messages.each do |message| %>\n"
+                },
+                {
+                    "date": 1727705693002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <h2> Publier une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n-<%\n+  <%\n =begin%>\n   \n <%\n =end%>\n"
+                },
+                {
+                    "date": 1727705698171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,8 @@\n <h2> Publier une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n-  <%\n-=begin%>\n-  \n-<%\n-=end%>\n+   \n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n     <ul>\n       <% @blague.errors.full_messages.each do |message| %>\n"
+                },
+                {
+                    "date": 1727705743587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,13 +3,17 @@\n <%= form_with model: @blague, local: true do |form| %>\n    \n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n-    <ul>\n+    <%\n+=begin%>\n+ <ul>\n       <% @blague.errors.full_messages.each do |message| %>\n         <li><%= message %></li>\n       <% end %>\n-    </ul>\n+    </ul> \n+<%\n+=end%>\n   <% end %>\n \n   <p>\n     <%= form.label :nom %>\n"
+                },
+                {
+                    "date": 1727705855971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,16 +4,9 @@\n    \n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n     <%\n-=begin%>\n- <ul>\n-      <% @blague.errors.full_messages.each do |message| %>\n-        <li><%= message %></li>\n-      <% end %>\n-    </ul> \n-<%\n-=end%>\n+\n   <% end %>\n \n   <p>\n     <%= form.label :nom %>\n"
+                },
+                {
+                    "date": 1727705862413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,12 +3,10 @@\n <%= form_with model: @blague, local: true do |form| %>\n    \n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n-    <%\n+  <%end %>\n \n-  <% end %>\n-\n   <p>\n     <%= form.label :nom %>\n     <%= form.text_field :nom %>\n   </p>\n"
+                },
+                {
+                    "date": 1727705893711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n \n <%= form_with model: @blague, local: true do |form| %>\n    \n   <% if @blague.errors.any? %>\n-    <h2> Une erreur est survenue :</h2>\n-  <%end %>\n+    <h2> Une erreur est survenue</h2>\n+  <%end%>\n \n   <p>\n     <%= form.label :nom %>\n     <%= form.text_field :nom %>\n"
+                },
+                {
+                    "date": 1727706016654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <h2> Publier une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n    \n-  <% if @blague.errors.any? %>\n+  <%= if @blague.errors.any? %>\n     <h2> Une erreur est survenue</h2>\n   <%end%>\n \n   <p>\n"
+                },
+                {
+                    "date": 1727706023861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <h2> Publier une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n    \n-  <%= if @blague.errors.any? %>\n+  <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue</h2>\n   <%end%>\n \n   <p>\n"
+                },
+                {
+                    "date": 1727706310980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <%= form_with model: @blague, local: true do |form| %>\n    \n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue</h2>\n-  <%end%>\n+  <% end%>\n \n   <p>\n     <%= form.label :nom %>\n     <%= form.text_field :nom %>\n"
+                },
+                {
+                    "date": 1727706333973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n <h2> Publier une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n    \n-  <% if @blague.errors.any? %>\n+  <% if @blagues.errors.any? %>\n     <h2> Une erreur est survenue</h2>\n-  <% end%>\n+  <% end %>\n \n   <p>\n     <%= form.label :nom %>\n     <%= form.text_field :nom %>\n"
+                },
+                {
+                    "date": 1727706344152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n <h2> Publier une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true do |form| %>\n    \n-  <% if @blagues.errors.any? %>\n+  <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue</h2>\n   <% end %>\n \n   <p>\n"
+                },
+                {
+                    "date": 1727706685652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,14 @@\n \n <%= form_with model: @blague, local: true do |form| %>\n    \n   <% if @blague.errors.any? %>\n-    <h2> Une erreur est survenue</h2>\n+    <h2> Une erreur est survenue :</h2>\n+    <ul>\n+      <% @blague.errors.full_messages.each do |message| %>\n+        <li><%= message %></li>\n+      <% end %>\n+    </ul>\n   <% end %>\n \n   <p>\n     <%= form.label :nom %>\n"
+                },
+                {
+                    "date": 1727706958791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <h2> Publier une nouvelle blague </h2>\n \n-<%= form_with model: @blague, local: true do |form| %>\n+<%= form_with model: @blague, local: true, data: { turbo: false } do |form| %>\n    \n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n     <ul>\n"
+                },
+                {
+                    "date": 1727706992581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,13 +3,17 @@\n <%= form_with model: @blague, local: true, data: { turbo: false } do |form| %>\n    \n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n-    <ul>\n+    <%\n+=begin%>\n+ <ul>\n       <% @blague.errors.full_messages.each do |message| %>\n         <li><%= message %></li>\n       <% end %>\n-    </ul>\n+    </ul> \n+<%\n+=end%>\n   <% end %>\n \n   <p>\n     <%= form.label :nom %>\n"
+                },
+                {
+                    "date": 1727707006177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,17 +3,13 @@\n <%= form_with model: @blague, local: true, data: { turbo: false } do |form| %>\n    \n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n-    <%\n-=begin%>\n- <ul>\n+    <ul>\n       <% @blague.errors.full_messages.each do |message| %>\n         <li><%= message %></li>\n       <% end %>\n-    </ul> \n-<%\n-=end%>\n+    </ul>\n   <% end %>\n \n   <p>\n     <%= form.label :nom %>\n"
+                },
+                {
+                    "date": 1727707061640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,14 @@\n <h2> Publier une nouvelle blague </h2>\n \n <%= form_with model: @blague, local: true, data: { turbo: false } do |form| %>\n    \n+\n+   <%\n+=begin%>\n+  \n+<%\n+=end%>\n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n     <ul>\n       <% @blague.errors.full_messages.each do |message| %>\n"
+                },
+                {
+                    "date": 1727707068222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n    \n \n    <%\n =begin%>\n-  \n+  une \n <%\n =end%>\n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n"
+                },
+                {
+                    "date": 1727707076715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n    \n \n    <%\n =begin%>\n-  une \n+  pour \n <%\n =end%>\n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n"
+                },
+                {
+                    "date": 1727707091718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n    \n \n    <%\n =begin%>\n-  pour \n+  pour afficher les message d'erreur \n <%\n =end%>\n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n"
+                },
+                {
+                    "date": 1727707097405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n    \n \n    <%\n =begin%>\n-  pour afficher les message d'erreur \n+  pour afficher les message d'erreur si l'envoi ecoue\n <%\n =end%>\n   <% if @blague.errors.any? %>\n     <h2> Une erreur est survenue :</h2>\n"
+                }
+            ],
+            "date": 1727697251883,
+            "name": "Commit-0",
+            "content": "<div>"
+        }
+    ]
+}

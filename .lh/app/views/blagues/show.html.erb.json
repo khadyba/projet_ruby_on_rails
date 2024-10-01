@@ -1,0 +1,174 @@
+{
+    "sourceFile": "app/views/blagues/show.html.erb",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 39,
+            "patches": [
+                {
+                    "date": 1727692088712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727692095274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div>\n\\ No newline at end of file\n+<div></div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692108683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div></div>\n\\ No newline at end of file\n+<div>Bonjour je suis une ressources</div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692131875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div>Bonjour je suis une ressources</div>\n\\ No newline at end of file\n+<div>Bonjour je suis une ressources </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692143923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div>Bonjour je suis une ressources </div>\n\\ No newline at end of file\n+<div>Bonjour je suis une ressources vue a partir de l'actions show </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727694434888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div>Bonjour je suis une ressources vue a partir de l'actions show </div>\n\\ No newline at end of file\n+<div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n"
+                },
+                {
+                    "date": 1727694445355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n+<%=>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727694455109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<%=>\n\\ No newline at end of file\n+<%= %>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727694485142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n+\n <%= %>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727694491850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-\n+<div><>\n <%= %>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727694503501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div><>\n+<div> le nom de la blagues</div>\n <%= %>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727694509050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues</div>\n-<%= %>\n\\ No newline at end of file\n+<div> le nom de la blagues </div>\n"
+                },
+                {
+                    "date": 1727694527197,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues </div>\n+<div> le nom de la blagues est le suivant <%= %> </div>\n"
+                },
+                {
+                    "date": 1727694741531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant <%= %> </div>\n+<div> le nom de la blagues est le suivant :  <%=  %> </div>\n"
+                },
+                {
+                    "date": 1727694747447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant :  <%=  %> </div>\n+<div> le nom de la blagues est le suivant :  <%= blague. %> </div>\n"
+                },
+                {
+                    "date": 1727694787162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant :  <%= blague. %> </div>\n+<div> le nom de la blagues est le suivant :  <%= @blague.nom %> </div>\n"
+                },
+                {
+                    "date": 1727694876804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant :  <%= @blague.nom %> </div>\n+<div> le nom de la blagues est le suivant :h  <%= @blague.nom %> </div>\n"
+                },
+                {
+                    "date": 1727694883770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant :h  <%= @blague.nom %> </div>\n+<div> le nom de la blagues est le suivant : <h> <%= @blague.nom %> </div>\n"
+                },
+                {
+                    "date": 1727694889980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant : <h> <%= @blague.nom %> </div>\n+<div> le nom de la blagues est le suivant : <h2><> <%= @blague.nom %> </div>\n"
+                },
+                {
+                    "date": 1727694901362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant : <h2><> <%= @blague.nom %> </div>\n+<div> le nom de la blagues est le suivant : <h2></h2>  </div>\n"
+                },
+                {
+                    "date": 1727694912933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant : <h2></h2>  </div>\n+<div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n"
+                },
+                {
+                    "date": 1727694917993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n <div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n+<div>\n"
+                },
+                {
+                    "date": 1727694927972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n <div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n-<div>\n+<div> <p</div>\n"
+                },
+                {
+                    "date": 1727694934948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n <div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n-<div> <p</div>\n+<div> <p></p> </div>\n"
+                },
+                {
+                    "date": 1727694940350,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+<div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n+<div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n+<div> <p>\n+\n+</p> </div>\n"
+                },
+                {
+                    "date": 1727694947892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+<div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n+<div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n+<div>\n+    <p>\n+\n+    </p> \n+</div>\n"
+                },
+                {
+                    "date": 1727694957594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,7 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n <div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n <div>\n     <p>\n-\n+    <%= @blague.nom %>\n     </p> \n </div>\n-<div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n-<div> <p>\n-\n-</p> </div>\n-<div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n-<div> <p></p> </div>\n"
+                },
+                {
+                    "date": 1727694963786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n <div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n <div>\n     <p>\n-    <%= @blague.nom %>\n+    <%= @blague %>\n     </p> \n </div>\n"
+                },
+                {
+                    "date": 1727694969482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n <div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n <div>\n     <p>\n-    <%= @blague %>\n+    <%= @blague.contenu %>\n     </p> \n </div>\n"
+                },
+                {
+                    "date": 1727694974738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n-<div> le nom de la blagues est le suivant : <h2><%= @blague.nom %></h2></div>\n+<div> le nom de la blagues est le suivant :\n+ <h2><%= @blague.nom %></h2></div>\n <div>\n     <p>\n     <%= @blague.contenu %>\n     </p> \n"
+                },
+                {
+                    "date": 1727694981351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n <div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n <div> le nom de la blagues est le suivant :\n- <h2><%= @blague.nom %></h2></div>\n+ <h2><%= @blague.nom %></h2>\n+</div>\n <div>\n     <p>\n     <%= @blague.contenu %>\n     </p> \n"
+                },
+                {
+                    "date": 1727694992845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n  <h2><%= @blague.nom %></h2>\n </div>\n <div>\n     <p>\n-    <%= @blague.contenu %>\n+    <%= @blague.contenue %>\n     </p> \n </div>\n"
+                },
+                {
+                    "date": 1727695020340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,4 +6,9 @@\n     <p>\n     <%= @blague.contenue %>\n     </p> \n </div>\n+<div>\n+    <p>\n+    <%= @blague.contenue %>\n+    </p> \n+</div>\n"
+                },
+                {
+                    "date": 1727695026981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n     <%= @blague.contenue %>\n     </p> \n </div>\n <div>\n+publier\n     <p>\n     <%= @blague.contenue %>\n     </p> \n </div>\n"
+                },
+                {
+                    "date": 1727695035243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,7 @@\n     <%= @blague.contenue %>\n     </p> \n </div>\n <div>\n-publier\n-    <p>\n-    <%= @blague.contenue %>\n-    </p> \n+publier par : \n+   \n </div>\n"
+                },
+                {
+                    "date": 1727695040381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,9 @@\n     <%= @blague.contenue %>\n     </p> \n </div>\n <div>\n-publier par : \n+  publier par :  <p>\n+    <%= @blague.contenue %>\n+    </p> \n    \n </div>\n"
+                },
+                {
+                    "date": 1727695047940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <%= @blague.contenue %>\n     </p> \n </div>\n <div>\n-  publier par :  <p>\n-    <%= @blague.contenue %>\n+  publier par : <p>\n+    <%= @blague.auteur %>\n     </p> \n    \n </div>\n"
+                },
+                {
+                    "date": 1727695070833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-<div>Bonjour je suis une ressources vue a partir de l'actions show du controller</div>\n <div> le nom de la blagues est le suivant :\n  <h2><%= @blague.nom %></h2>\n </div>\n <div>\n@@ -7,9 +6,9 @@\n     <%= @blague.contenue %>\n     </p> \n </div>\n <div>\n-  publier par : <p>\n+   publier par :<p>\n     <%= @blague.auteur %>\n     </p> \n    \n </div>\n"
+                },
+                {
+                    "date": 1727695114026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n <div> le nom de la blagues est le suivant :\n- <h2><%= @blague.nom %></h2>\n </div>\n <div>\n+ <h2><%= @blague.nom %></h2>\n     <p>\n     <%= @blague.contenue %>\n     </p> \n </div>\n"
+                },
+                {
+                    "date": 1727695120001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n-<div> le nom de la blagues est le suivant :\n-</div>\n+\n <div>\n  <h2><%= @blague.nom %></h2>\n     <p>\n     <%= @blague.contenue %>\n"
+                }
+            ],
+            "date": 1727692088712,
+            "name": "Commit-0",
+            "content": "<div>"
+        }
+    ]
+}

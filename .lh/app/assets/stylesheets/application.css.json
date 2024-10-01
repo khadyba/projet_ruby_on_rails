@@ -1,0 +1,38 @@
+{
+    "sourceFile": "app/assets/stylesheets/application.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1727707275065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727707282390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,5 @@\n  *\n  *= require_tree .\n  *= require_self\n  */\n-.\n\\ No newline at end of file\n+.fiel\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707289390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,5 @@\n  *\n  *= require_tree .\n  *= require_self\n  */\n-.fiel\n\\ No newline at end of file\n+.field_with\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707313339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,5 @@\n  *\n  *= require_tree .\n  *= require_self\n  */\n-.field_with\n\\ No newline at end of file\n+.field_with_\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707319234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,7 @@\n  *\n  *= require_tree .\n  *= require_self\n  */\n-.field_with_\n\\ No newline at end of file\n+.field_with_errors{\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707324406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,6 @@\n  *= require_tree .\n  *= require_self\n  */\n .field_with_errors{\n-    \n+    color: ;\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1727707275065,
+            "name": "Commit-0",
+            "content": "/*\n * This is a manifest file that'll be compiled into application.css, which will include all the files\n * listed below.\n *\n * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's\n * vendor/assets/stylesheets directory can be referenced here using a relative path.\n *\n * You're free to add application-wide styles to this file and they'll appear at the bottom of the\n * compiled file so the styles you add here take precedence over styles defined in any other CSS\n * files in this directory. Styles in this file should be added after the last require_* statement.\n * It is generally better to create a new file per style scope.\n *\n *= require_tree .\n *= require_self\n */\n."
+        }
+    ]
+}

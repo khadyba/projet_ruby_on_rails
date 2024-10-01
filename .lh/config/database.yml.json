@@ -1,0 +1,74 @@
+{
+    "sourceFile": "config/database.yml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1727688714978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727688721291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n #   Ensure the SQLite 3 gem is defined in your Gemfile\n #   gem \"sqlite3\"\n #\n default: &default\n-  adapter: sqli\n+  adapter: postgres\n   pool: <%= ENV.fetch(\"RAILS_MAX_THREADS\") { 5 } %>\n   timeout: 5000\n \n development:\n"
+                },
+                {
+                    "date": 1727688726656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n #   Ensure the SQLite 3 gem is defined in your Gemfile\n #   gem \"sqlite3\"\n #\n default: &default\n-  adapter: postgres\n+  adapter: postgresql\n   pool: <%= ENV.fetch(\"RAILS_MAX_THREADS\") { 5 } %>\n   timeout: 5000\n \n development:\n"
+                },
+                {
+                    "date": 1727688751965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   timeout: 5000\n \n development:\n   <<: *default\n-  database: storage/development.sqlite3\n+  database: \n \n # Warning: The database defined as \"test\" will be erased and\n # re-generated from your development database when you run \"rake\".\n # Do not set this db to the same as development or production.\n"
+                },
+                {
+                    "date": 1727688757449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   timeout: 5000\n \n development:\n   <<: *default\n-  database: \n+  database: blagues\n \n # Warning: The database defined as \"test\" will be erased and\n # re-generated from your development database when you run \"rake\".\n # Do not set this db to the same as development or production.\n"
+                },
+                {
+                    "date": 1727688762531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   timeout: 5000\n \n development:\n   <<: *default\n-  database: blagues\n+  database: blagues_droles\n \n # Warning: The database defined as \"test\" will be erased and\n # re-generated from your development database when you run \"rake\".\n # Do not set this db to the same as development or production.\n"
+                },
+                {
+                    "date": 1727688769323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   timeout: 5000\n \n development:\n   <<: *default\n-  database: blagues_droles\n+  database: blagues_droles_developpement\n \n # Warning: The database defined as \"test\" will be erased and\n # re-generated from your development database when you run \"rake\".\n # Do not set this db to the same as development or production.\n"
+                },
+                {
+                    "date": 1727688793665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n # re-generated from your development database when you run \"rake\".\n # Do not set this db to the same as development or production.\n test:\n   <<: *default\n-  database: storage/test.sqlite3\n+  database: blagues_droles_test\n \n production:\n   <<: *default\n   database: storage/production.sqlite3\n"
+                },
+                {
+                    "date": 1727688810151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,5 @@\n   database: blagues_droles_test\n \n production:\n   <<: *default\n-  database: storage/production.sqlite3\n+  database: blagues_droles_productions\n"
+                },
+                {
+                    "date": 1727689736996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n #   gem \"sqlite3\"\n #\n default: &default\n   adapter: postgresql\n+   encoding: unicode\n   pool: <%= ENV.fetch(\"RAILS_MAX_THREADS\") { 5 } %>\n   timeout: 5000\n \n development:\n"
+                },
+                {
+                    "date": 1727689747518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n default: &default\n   adapter: postgresql\n    encoding: unicode\n   pool: <%= ENV.fetch(\"RAILS_MAX_THREADS\") { 5 } %>\n+  username: khady\n   timeout: 5000\n \n development:\n   <<: *default\n"
+                },
+                {
+                    "date": 1727689755683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,10 @@\n   adapter: postgresql\n    encoding: unicode\n   pool: <%= ENV.fetch(\"RAILS_MAX_THREADS\") { 5 } %>\n   username: khady\n+   password:\n+\n   timeout: 5000\n \n development:\n   <<: *default\n"
+                },
+                {
+                    "date": 1727689761673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   adapter: postgresql\n    encoding: unicode\n   pool: <%= ENV.fetch(\"RAILS_MAX_THREADS\") { 5 } %>\n   username: khady\n-   password:\n+   password:Khady\n \n   timeout: 5000\n \n development:\n"
+                },
+                {
+                    "date": 1727689768297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   adapter: postgresql\n    encoding: unicode\n   pool: <%= ENV.fetch(\"RAILS_MAX_THREADS\") { 5 } %>\n   username: khady\n-   password:Khady\n+   password:Khady@2024\n \n   timeout: 5000\n \n development:\n"
+                },
+                {
+                    "date": 1727689823709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,12 +5,12 @@\n #   gem \"sqlite3\"\n #\n default: &default\n   adapter: postgresql\n-   encoding: unicode\n+  encoding: unicode\n   pool: <%= ENV.fetch(\"RAILS_MAX_THREADS\") { 5 } %>\n   username: khady\n-   password:Khady@2024\n+   password: Khady@2024\n \n   timeout: 5000\n \n development:\n"
+                }
+            ],
+            "date": 1727688714978,
+            "name": "Commit-0",
+            "content": "# SQLite. Versions 3.8.0 and up are supported.\n#   gem install sqlite3\n#\n#   Ensure the SQLite 3 gem is defined in your Gemfile\n#   gem \"sqlite3\"\n#\ndefault: &default\n  adapter: sqli\n  pool: <%= ENV.fetch(\"RAILS_MAX_THREADS\") { 5 } %>\n  timeout: 5000\n\ndevelopment:\n  <<: *default\n  database: storage/development.sqlite3\n\n# Warning: The database defined as \"test\" will be erased and\n# re-generated from your development database when you run \"rake\".\n# Do not set this db to the same as development or production.\ntest:\n  <<: *default\n  database: storage/test.sqlite3\n\nproduction:\n  <<: *default\n  database: storage/production.sqlite3\n"
+        }
+    ]
+}

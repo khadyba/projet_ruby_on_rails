@@ -1,0 +1,3 @@
+<%= form_with model: blague, method: :delete, local: true do |form| %>
+  <%= form.submit "Supprimer la blague", data: { confirm: "Es-tu sûr de vouloir supprimer cette blague ?" } %>
+<% end %>

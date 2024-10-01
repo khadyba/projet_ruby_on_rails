@@ -1,0 +1,154 @@
+{
+    "sourceFile": "config/routes.rb",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 34,
+            "patches": [
+                {
+                    "date": 1727688325168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727688349257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n \n-  \n+  get\n end\n"
+                },
+                {
+                    "date": 1727688355564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n \n-  get\n+  get \"home\"\n end\n"
+                },
+                {
+                    "date": 1727688361378,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n \n-  get \"home\"\n+  get \"home\" =>\n end\n"
+                },
+                {
+                    "date": 1727688373798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n \n-  get \"home\" =>\n+  get \"home\"\n end\n"
+                },
+                {
+                    "date": 1727688394152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n \n-  get \"home\"\n+  get \"home\", to\n end\n"
+                },
+                {
+                    "date": 1727688399502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n \n-  get \"home\", to\n+  get \"home\", to: \"home\"\n end\n"
+                },
+                {
+                    "date": 1727688433144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,6 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n \n-  get \"home\", to: \"home\"\n+  get \"home\", to: \"home#index\"\n end\n"
+                },
+                {
+                    "date": 1727688577977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n \n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n-\n+ root\n   get \"home\", to: \"home#index\"\n end\n"
+                },
+                {
+                    "date": 1727688595573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,7 @@\n \n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n- root\n+ root \"home\"\n   get \"home\", to: \"home#index\"\n end\n"
+                },
+                {
+                    "date": 1727691629692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,8 @@\n \n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n- root \"home\"\n+ root \"home#index\"\n   get \"home\", to: \"home#index\"\n+  \n end\n"
+                },
+                {
+                    "date": 1727691646755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,8 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n  root \"home#index\"\n+ \n   get \"home\", to: \"home#index\"\n-  \n+\n end\n"
+                },
+                {
+                    "date": 1727691652895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n  root \"home#index\"\n+\n+ get \"home\", to: \"home#index\"\n  \n-  get \"home\", to: \"home#index\"\n \n end\n"
+                },
+                {
+                    "date": 1727691659347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,8 @@\n \n  root \"home#index\"\n \n  get \"home\", to: \"home#index\"\n- \n \n+ resources :blagues\n+\n end\n"
+                },
+                {
+                    "date": 1727691677966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n \n  get \"home\", to: \"home#index\"\n \n- resources :blagues\n+ resources :blagues, on\n \n end\n"
+                },
+                {
+                    "date": 1727691687536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n \n  get \"home\", to: \"home#index\"\n \n- resources :blagues, on\n+ resources :blagues, only: :\n \n end\n"
+                },
+                {
+                    "date": 1727691693561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n \n  get \"home\", to: \"home#index\"\n \n- resources :blagues, only: :\n+ resources :blagues, only: :show\n \n end\n"
+                },
+                {
+                    "date": 1727691705068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n  root \"home#index\"\n \n  get \"home\", to: \"home#index\"\n-\n+# \n  resources :blagues, only: :show\n \n end\n"
+                },
+                {
+                    "date": 1727691711778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n  root \"home#index\"\n \n  get \"home\", to: \"home#index\"\n-# \n+# route qui va mem\n  resources :blagues, only: :show\n \n end\n"
+                },
+                {
+                    "date": 1727691721544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,8 @@\n \n  root \"home#index\"\n \n  get \"home\", to: \"home#index\"\n-# route qui va mem\n+# route qui va mener a une ressource precis\n  resources :blagues, only: :show\n \n end\n"
+                },
+                {
+                    "date": 1727691729198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n  root \"home#index\"\n-\n+# \n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n  resources :blagues, only: :show\n \n"
+                },
+                {
+                    "date": 1727691742072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   # Defines the root path route (\"/\")\n   # root \"posts#index\"\n \n  root \"home#index\"\n-# \n+# route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n  resources :blagues, only: :show\n \n"
+                },
+                {
+                    "date": 1727692219559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: :show\n+ resources :blagues, only: :[show]\n \n end\n"
+                },
+                {
+                    "date": 1727692243211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: :[show]\n+ resources :blagues, only: :[show, :index]\n \n end\n"
+                },
+                {
+                    "date": 1727692251641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: :[show, :index]\n+ resources :blagues, only: [:show, :index]\n \n end\n"
+                },
+                {
+                    "date": 1727697165882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+Rails.application.routes.draw do\n+  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html\n+\n+  # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.\n+  # Can be used by load balancers and uptime monitors to verify that the app is live.\n+  get \"up\" => \"rails/health#show\", as: :rails_health_check\n+\n+  # Defines the root path route (\"/\")\n+  # root \"posts#index\"\n+\n+ root \"home#index\"\n+# route qui va mener a la page d'acceuil\n+ get \"home\", to: \"home#index\"\n+# route qui va mener a une ressource precis\n+ resources :blagues, only: [:show, :index,]\n+\n+end\n"
+                },
+                {
+                    "date": 1727697174818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,24 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: [:show, :index,]\n+ resources :blagues, only: [:show, :index, :new, :]\n \n end\n-Rails.application.routes.draw do\n-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html\n-\n-  # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.\n-  # Can be used by load balancers and uptime monitors to verify that the app is live.\n-  get \"up\" => \"rails/health#show\", as: :rails_health_check\n-\n-  # Defines the root path route (\"/\")\n-  # root \"posts#index\"\n-\n- root \"home#index\"\n-# route qui va mener a la page d'acceuil\n- get \"home\", to: \"home#index\"\n-# route qui va mener a une ressource precis\n- resources :blagues, only: [:show, :index]\n-\n-end\n"
+                },
+                {
+                    "date": 1727707662272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: [:show, :index, :new, :]\n+ resources :blagues, only: [:show, :index, :new, :create, :edit]\n \n end\n"
+                },
+                {
+                    "date": 1727707668603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: [:show, :index, :new, :create, :edit]\n+ resources :blagues, only: [:show, :index, :new, :create, :edit, :up]\n \n end\n"
+                },
+                {
+                    "date": 1727709276422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: [:show, :index, :new, :create, :edit, :up]\n+ resources :blagues, only: [:show, :index, :new, :create, :edit, :update,]\n \n end\n"
+                },
+                {
+                    "date": 1727766354508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: [:show, :index, :new, :create, :edit, :update,]\n+ resources :blagues, only: [:show, :index, :new, :create, :edit, :update]\n \n end\n"
+                },
+                {
+                    "date": 1727766903307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: [:show, :index, :new, :create, :edit, :update]\n+ resources :blagues only: [:show, :index, :new, :create, :edit, :update]\n \n end\n"
+                },
+                {
+                    "date": 1727766915683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues only: [:show, :index, :new, :create, :edit, :update]\n+ resources :blagues, only: [:show, :index, :new, :create, :edit, :update]\n \n end\n"
+                },
+                {
+                    "date": 1727767996166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: [:show, :index, :new, :create, :edit, :update]\n+ resources :blagues, only: [:show, :index, :new, :create, ]\n \n end\n"
+                },
+                {
+                    "date": 1727768003462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n  root \"home#index\"\n # route qui va mener a la page d'acceuil\n  get \"home\", to: \"home#index\"\n # route qui va mener a une ressource precis\n- resources :blagues, only: [:show, :index, :new, :edit :create, ]\n+ resources :blagues, only: [:show, :index, :new, :edit, :create, ]\n \n end\n"
+                }
+            ],
+            "date": 1727688325168,
+            "name": "Commit-0",
+            "content": "Rails.application.routes.draw do\n  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html\n\n  # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.\n  # Can be used by load balancers and uptime monitors to verify that the app is live.\n  get \"up\" => \"rails/health#show\", as: :rails_health_check\n\n  # Defines the root path route (\"/\")\n  # root \"posts#index\"\n\n\n  \nend\n"
+        }
+    ]
+}

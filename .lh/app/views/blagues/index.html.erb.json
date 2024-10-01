@@ -1,0 +1,110 @@
+{
+    "sourceFile": "app/views/blagues/index.html.erb",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 23,
+            "patches": [
+                {
+                    "date": 1727692301944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727692307647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div>\n\\ No newline at end of file\n+<div></div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692328772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div></div>\n\\ No newline at end of file\n+<div>Bonjour la liste des ressources du controller</div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692337073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div>Bonjour la liste des ressources du controller</div>\n\\ No newline at end of file\n+<div>Bonjour la liste des ressources du controller bla</div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692342176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div>Bonjour la liste des ressources du controller bla</div>\n\\ No newline at end of file\n+<div>Bonjour la liste des ressources du controller blague</div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692365318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div>Bonjour la liste des ressources du controller blague</div>\n\\ No newline at end of file\n+<div>Bonjour  la liste des ressources du controller blagues</div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695296286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+<div></div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695302362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,1 @@\n-<div></div>\n-<div>Bonjour  la liste des ressources du controller blagues</div>\n\\ No newline at end of file\n+<div><%=</div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695308676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-<div><%=</div>\n\\ No newline at end of file\n+<div><%= %></div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695477180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-<div><%= %></div>\n\\ No newline at end of file\n+<div><%= %>\n+</div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695484757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+<div>\n+   <%=  %>\n+</div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695490984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,3 @@\n <div>\n-   <%=  %>\n-</div>\n-<div><%= %>\n+   <%= @blague.each %>\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695497807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n <div>\n-   <%= @blague.each %>\n+   <%= @blague.each do |blague %>\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695502982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n <div>\n-   <%= @blague.each do |blague %>\n+   <%= @blague.each do |blague| %>\n+   \n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695508463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n <div>\n    <%= @blague.each do |blague| %>\n-   \n+   <%end>\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695514100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n <div>\n    <%= @blague.each do |blague| %>\n-   <%end>\n+   \n+   <%end%>\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695541718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n <div>\n-   <%= @blague.each do |blague| %>\n-   \n+   <% @blague.each do |blague| %>\n+\n    <%end%>\n </div>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695614187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n <div>\n+</div>\n    <% @blague.each do |blague| %>\n-\n-   <%end%>\n\\ No newline at end of file\n-</div>\n+    \n+   <%end%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695621194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-<div>\n-</div>\n    <% @blague.each do |blague| %>\n+        <div>\n+        </div>\n     \n    <%end%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695626275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n    <% @blague.each do |blague| %>\n         <div>\n+        <%>\n         </div>\n     \n    <%end%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695638529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n    <% @blague.each do |blague| %>\n-        <div>\n-        <%>\n+        <div>Nom\n+        <%= %>\n         </div>\n     \n    <%end%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695644053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n    <% @blague.each do |blague| %>\n-        <div>Nom\n-        <%= %>\n+        <div>Nom : \n+        <%= @%>\n         </div>\n     \n    <%end%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695650092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n    <% @blague.each do |blague| %>\n         <div>Nom : \n-        <%= @blague.nom%>\n+        <%= @blague.nom %>\n         </div>\n     \n    <%end%>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695924240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-   <% @blagues.ea do |blague| %>\n+   <% @blagues.each do |blague| %>\n \n         <div>Nom : \n            <%= @blague.nom%>\n         </div>\n"
+                }
+            ],
+            "date": 1727692301944,
+            "name": "Commit-0",
+            "content": "<div>"
+        }
+    ]
+}

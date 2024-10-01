@@ -1,0 +1,30 @@
+{
+    "sourceFile": "Gemfile",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1727688927356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727688934750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n \n # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]\n gem \"sprockets-rails\"\n \n-# Use sqlite3 as the database for Active Record\n+# Use postgr as the database for Active Record\n gem pg\n \n # Use the Puma web server [https://github.com/puma/puma]\n gem \"puma\", \">= 5.0\"\n"
+                },
+                {
+                    "date": 1727688960451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n \n # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]\n gem \"sprockets-rails\"\n \n-# Use postgr as the database for Active Record\n-gem pg\n+# Use postgresql as the database for Active Record\n+gem \"pg\"\n \n # Use the Puma web server [https://github.com/puma/puma]\n gem \"puma\", \">= 5.0\"\n \n"
+                },
+                {
+                    "date": 1727773541156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,10 @@\n \n # Use postgresql as the database for Active Record\n gem \"pg\"\n \n+gem 'hotwire-rails'\n+\n # Use the Puma web server [https://github.com/puma/puma]\n gem \"puma\", \">= 5.0\"\n \n # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]\n"
+                }
+            ],
+            "date": 1727688927356,
+            "name": "Commit-0",
+            "content": "source \"https://rubygems.org\"\n\nruby \"3.0.2\"\n\n# Bundle edge Rails instead: gem \"rails\", github: \"rails/rails\", branch: \"main\"\ngem \"rails\", \"~> 7.1.3\", \">= 7.1.3.4\"\n\n# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]\ngem \"sprockets-rails\"\n\n# Use sqlite3 as the database for Active Record\ngem pg\n\n# Use the Puma web server [https://github.com/puma/puma]\ngem \"puma\", \">= 5.0\"\n\n# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]\ngem \"importmap-rails\"\n\n# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]\ngem \"turbo-rails\"\n\n# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]\ngem \"stimulus-rails\"\n\n# Build JSON APIs with ease [https://github.com/rails/jbuilder]\ngem \"jbuilder\"\n\n# Use Redis adapter to run Action Cable in production\n# gem \"redis\", \">= 4.0.1\"\n\n# Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]\n# gem \"kredis\"\n\n# Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]\n# gem \"bcrypt\", \"~> 3.1.7\"\n\n# Windows does not include zoneinfo files, so bundle the tzinfo-data gem\ngem \"tzinfo-data\", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]\n\n# Reduces boot times through caching; required in config/boot.rb\ngem \"bootsnap\", require: false\n\n# Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]\n# gem \"image_processing\", \"~> 1.2\"\n\ngroup :development, :test do\n  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem\n  gem \"debug\", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]\nend\n\ngroup :development do\n  # Use console on exceptions pages [https://github.com/rails/web-console]\n  gem \"web-console\"\n\n  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]\n  # gem \"rack-mini-profiler\"\n\n  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]\n  # gem \"spring\"\nend\n\ngroup :test do\n  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]\n  gem \"capybara\"\n  gem \"selenium-webdriver\"\nend\n"
+        }
+    ]
+}

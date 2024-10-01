@@ -1,0 +1,110 @@
+{
+    "sourceFile": "app/models/blague.rb",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 23,
+            "patches": [
+                {
+                    "date": 1727704279218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727704290169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n+# les validations du formulaire \n \n-\n class Blague < ApplicationRecord\n end\n"
+                },
+                {
+                    "date": 1727704298398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-# les validations du formulaire \n+# les validations du formulaire d'ajout de nouvelle bla\n \n class Blague < ApplicationRecord\n end\n"
+                },
+                {
+                    "date": 1727704304133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n-# les validations du formulaire d'ajout de nouvelle bla\n+# les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n end\n"
+                },
+                {
+                    "date": 1727704317382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n+    \n end\n"
+                },
+                {
+                    "date": 1727704325594,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n-    \n+    va\n end\n"
+                },
+                {
+                    "date": 1727704343131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n-    va\n+    validates ${:nom}\n end\n"
+                },
+                {
+                    "date": 1727704349734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n     validates ${:nom}\n+    validates ${:ce}\n+\n end\n"
+                },
+                {
+                    "date": 1727704355415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n     validates ${:nom}\n-    validates ${:ce}\n+    validates ${:contenue}\n+    validates ${:nom}\n \n+\n end\n"
+                },
+                {
+                    "date": 1727704388282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n-    validates ${:nom}\n+    validates ${:nom} pre\n     validates ${:contenue}\n-    validates ${:nom}\n+    validates ${:auteur}\n \n \n end\n"
+                },
+                {
+                    "date": 1727704393863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n-    validates ${:nom} pre\n-    validates ${:contenue}\n+    validates ${:nom} presence :true\n+    validates ${:contenue} pre\n     validates ${:auteur}\n \n \n end\n"
+                },
+                {
+                    "date": 1727704401046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n     validates ${:nom} presence :true\n-    validates ${:contenue} pre\n+    validates ${:contenue} presence :true\n     validates ${:auteur}\n \n \n end\n"
+                },
+                {
+                    "date": 1727704442626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n-    validates ${:nom} presence :true\n+    validates ${:nom, contenue} presence :true\n     validates ${:contenue} presence :true\n     validates ${:auteur}\n \n \n"
+                },
+                {
+                    "date": 1727704452254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n-    validates ${:nom, contenue} presence :true\n+    validates ${:nom, :contenue, :auteur} presence :true\n     validates ${:contenue} presence :true\n     validates ${:auteur}\n \n \n"
+                },
+                {
+                    "date": 1727704463556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n+    \n     validates ${:nom, :contenue, :auteur} presence :true\n-    validates ${:contenue} presence :true\n-    validates ${:auteur}\n+  \n \n \n end\n"
+                },
+                {
+                    "date": 1727704547570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n-    \n-    validates ${:nom, :contenue, :auteur} presence :true\n+\n+    validates [${:nom, :contenue, :auteur}] presence :true\n   \n \n \n end\n"
+                },
+                {
+                    "date": 1727704553846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n \n-    validates [${:nom, :contenue, :auteur}] presence :true\n+    validates [:nom, :contenue, :auteur] presence :true\n   \n \n \n end\n"
+                },
+                {
+                    "date": 1727704572868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n \n-    validates [:nom, :contenue, :auteur] presence :true\n+    validates [:nom presence :true\n   \n \n \n end\n"
+                },
+                {
+                    "date": 1727704618315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n \n-    validates [:nom presence :true\n+    validates :nom, presence :true\n   \n \n \n end\n"
+                },
+                {
+                    "date": 1727704626728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n \n-    validates :nom, presence :true\n+    validates :nom, presence:true\n   \n \n \n end\n"
+                },
+                {
+                    "date": 1727704640788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+# les validations du formulaire d'ajout de nouvelle blagues\n+\n+class Blague < ApplicationRecord\n+\n+    validates :nom, presence: true\n+    validates :nom, presence: true\n+\n+  \n+\n+\n+end\n"
+                },
+                {
+                    "date": 1727705775814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,19 +2,12 @@\n \n class Blague < ApplicationRecord\n \n     validates :nom, presence: true\n-    validates :nom, presence: true\n+    validates :contenue, presence: true\n+    validates :contenue, presence: true\n \n-  \n \n-\n-end\n-# les validations du formulaire d'ajout de nouvelle blagues\n-\n-class Blague < ApplicationRecord\n-\n-    validates :nom, presence:true\n   \n \n \n end\n"
+                },
+                {
+                    "date": 1727705783044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n class Blague < ApplicationRecord\n \n     validates :nom, presence: true\n     validates :contenue, presence: true\n-    validates :contenue, presence: true\n+    validates :auteur, presence: true\n \n \n   \n \n"
+                },
+                {
+                    "date": 1727705800891,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,8 @@\n # les validations du formulaire d'ajout de nouvelle blagues\n \n class Blague < ApplicationRecord\n-\n     validates :nom, presence: true\n     validates :contenue, presence: true\n     validates :auteur, presence: true\n-\n-\n+  end\n   \n-\n-\n-end\n"
+                }
+            ],
+            "date": 1727704279218,
+            "name": "Commit-0",
+            "content": "\n\nclass Blague < ApplicationRecord\nend\n"
+        }
+    ]
+}

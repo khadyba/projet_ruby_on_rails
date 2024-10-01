@@ -1,0 +1,28 @@
+<h2> Publiér une nouvelle blague </h2>
+
+    <%= form_with model: @blague, local: true do |form| %>
+
+    <% if @blague.errors.any? %>
+    <h>
+
+    <p>
+    <%= form.label :nom %>
+    <%= form.text_field  :nom %>
+    </p>
+
+    <p>
+    <%= form.label :contenue %>
+    <%= form.text_area  :contenue %>
+    </p>
+
+    <p>
+    <%= form.label :auteur %>
+    <%= form.text_field  :auteur %>
+    </p>
+
+    <p>
+    <%= form.submit "publier la blague" %>
+    </p>
+
+
+<%end%>

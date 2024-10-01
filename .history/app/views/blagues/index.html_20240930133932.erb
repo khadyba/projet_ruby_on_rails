@@ -1,0 +1,21 @@
+<div>
+   
+</div>
+
+<br></br>
+<% if @blagues.present? %>
+  <% @blagues.each do |blague| %>
+    <div>Nom : 
+      <%= blague.nom %>
+    </div>
+    <div>Contenue : 
+      <%= blague.contenue %>
+    </div>
+    <div>Publié par : 
+      <%= blague.auteur %>
+    </div>
+    <hr>
+  <% end %>
+<% else %>
+  <p>Aucune blague trouvée.</p>
+<% end %>

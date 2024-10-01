@@ -1,0 +1,626 @@
+{
+    "sourceFile": "app/controllers/blagues_controller.rb",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 152,
+            "patches": [
+                {
+                    "date": 1727691520014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1727691525865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-cla\n\\ No newline at end of file\n+class B\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691533631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-class B\n\\ No newline at end of file\n+class blaguesController\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691542640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-class blaguesController\n\\ No newline at end of file\n+class blaguesController < Applications\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691548262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-class blaguesController < Applications\n\\ No newline at end of file\n+class blaguesController < ApplicationContro\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691558141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-class blaguesController < ApplicationContro\n\\ No newline at end of file\n+class blaguesController < ApplicationController\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691563902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n class blaguesController < ApplicationController\n-    \n\\ No newline at end of file\n+    \n+end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691569422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n class blaguesController < ApplicationController\n-    \n+    def blague\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691576453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n class blaguesController < ApplicationController\n-    def blague\n+    def blagues\n+        \n+    end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691589991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-class blaguesController < ApplicationController\n+class BlaguesController < ApplicationController\n     def blagues\n-        \n+\n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691608799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n class BlaguesController < ApplicationController\n-    def blagues\n+    # def blagues\n \n-    end\n+    # end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691791947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n class BlaguesController < ApplicationController\n-    # def blagues\n+    def blagues\n \n-    # end\n+    end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727691797849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n class BlaguesController < ApplicationController\n-    def blagues\n+    def \n \n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692039467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n class BlaguesController < ApplicationController\n-    def \n+    \n+    def show\n \n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692047225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n class BlaguesController < ApplicationController\n-    \n+    # l'actions \n     def show\n \n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692199796,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,9 @@\n class BlaguesController < ApplicationController\n-    # l'actions \n+    # l'actions show\n     def show\n \n     end\n+    def show\n+\n+    end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692208942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n class BlaguesController < ApplicationController\n-    # l'actions show\n-    def show\n+    def index\n \n     end\n+    # l'actions show\n     def show\n \n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692500290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n \n     end\n     # l'actions show\n     def show\n-\n+     \n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692506204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n \n     end\n     # l'actions show\n     def show\n-     \n+     @blague\n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692512321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n \n     end\n     # l'actions show\n     def show\n-     @blague\n+     @blague = Bl\n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692518914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n \n     end\n     # l'actions show\n     def show\n-     @blague = Bl\n+     @blague = Blague\n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692524205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n \n     end\n     # l'actions show\n     def show\n-     @blague = Blague\n+     @blague = Blague.find\n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692530469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n \n     end\n     # l'actions show\n     def show\n-     @blague = Blague.find\n+     @blague = Blague.find(params[:id])\n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692547478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,8 @@\n \n     end\n     # l'actions show\n     def show\n+        # pour recupérer une \n      @blague = Blague.find(params[:id])\n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692559496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,8 @@\n \n     end\n     # l'actions show\n     def show\n-        # pour recupérer une \n+        # pour recupérer le detail d'une ressources\n      @blague = Blague.find(params[:id])\n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692564872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,7 @@\n     # l'actions show\n     def show\n         # pour recupérer le detail d'une ressources\n      @blague = Blague.find(params[:id])\n+     \n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692682423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n     end\n     # l'actions show\n     def show\n-        # pour recupérer le detail d'une ressources\n+        # pour recupérer le detail d'une ressources au niveau de la base de donner\n      @blague = Blague.find(params[:id])\n-     \n+\n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692705152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,10 @@\n \n     end\n     # l'actions show\n     def show\n-        # pour recupérer le detail d'une ressources au niveau de la base de donner\n+     # pour recupérer le detail d'une ressources au niveau de la base de donnéés\n+\n      @blague = Blague.find(params[:id])\n \n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692711957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n \n     end\n     # l'actions show\n     def show\n-     # pour recupérer le detail d'une ressources au niveau de la base de donnéés\n-\n+     # pour recupérer le detail d'une \n+     ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n \n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727692719336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n     end\n     # l'actions show\n     def show\n      # pour recupérer le detail d'une \n-     ressources au niveau de la base de donnéés\n+     # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n \n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727695240347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n class BlaguesController < ApplicationController\n     def index\n-\n+    @\n     end\n     # l'actions show\n     def show\n      # pour recupérer le detail d'une \n"
+                },
+                {
+                    "date": 1727695246488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n class BlaguesController < ApplicationController\n     def index\n-    @\n+    @blague.all\n     end\n     # l'actions show\n     def show\n      # pour recupérer le detail d'une \n"
+                },
+                {
+                    "date": 1727695262801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n class BlaguesController < ApplicationController\n     def index\n-    @blague.all\n+    @blague = Blague.all\n     end\n     # l'actions show\n     def show\n      # pour recupérer le detail d'une \n"
+                },
+                {
+                    "date": 1727695995758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n class BlaguesController < ApplicationController\n     def index\n-    @blague = Blague.all\n+    @blagues = Blague.all\n     end\n     # l'actions show\n     def show\n      # pour recupérer le detail d'une \n"
+                },
+                {
+                    "date": 1727696010881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n class BlaguesController < ApplicationController\n     def index\n-    @blagues = Blague.all\n+    @blague = Blague.all\n     end\n     # l'actions show\n     def show\n      # pour recupérer le detail d'une \n"
+                },
+                {
+                    "date": 1727696071547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n class BlaguesController < ApplicationController\n     def index\n-    @blague = Blague.all\n+    @blagues = Blague.all\n     end\n     # l'actions show\n     def show\n      # pour recupérer le detail d'une \n"
+                },
+                {
+                    "date": 1727696104387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n class BlaguesController < ApplicationController\n     def index\n-    @blagues = Blague.all\n-    end\n+        @blagues = Blague.all || []\n+      end\n+      \n     # l'actions show\n     def show\n      # pour recupérer le detail d'une \n      # ressources au niveau de la base de donnéés\n"
+                },
+                {
+                    "date": 1727696184862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n class BlaguesController < ApplicationController\n+    \n     def index\n         @blagues = Blague.all || []\n       end\n       \n"
+                },
+                {
+                    "date": 1727696202706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n class BlaguesController < ApplicationController\n-    \n+    # methode pour récupérer tout les bla\n     def index\n         @blagues = Blague.all || []\n       end\n       \n"
+                },
+                {
+                    "date": 1727696215105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n class BlaguesController < ApplicationController\n-    # methode pour récupérer tout les bla\n+    # methode pour récupérer tout les blague dans la base de données \n     def index\n         @blagues = Blague.all || []\n       end\n       \n"
+                },
+                {
+                    "date": 1727696221608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n class BlaguesController < ApplicationController\n     # methode pour récupérer tout les blague dans la base de données \n+    \n     def index\n         @blagues = Blague.all || []\n       end\n       \n"
+                },
+                {
+                    "date": 1727696228123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n class BlaguesController < ApplicationController\n     # methode pour récupérer tout les blague dans la base de données \n-    \n+    # en veri\n     def index\n         @blagues = Blague.all || []\n       end\n       \n"
+                },
+                {
+                    "date": 1727696234334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n class BlaguesController < ApplicationController\n     # methode pour récupérer tout les blague dans la base de données \n-    # en veri\n+    # en verifian si le ta\n     def index\n         @blagues = Blague.all || []\n       end\n       \n"
+                },
+                {
+                    "date": 1727696246232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n class BlaguesController < ApplicationController\n     # methode pour récupérer tout les blague dans la base de données \n-    # en verifian si le ta\n+    # en verifian si le tableau n'es pas vide d'abord\n     def index\n         @blagues = Blague.all || []\n       end\n       \n"
+                },
+                {
+                    "date": 1727697046528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,7 +9,6 @@\n     def show\n      # pour recupérer le detail d'une \n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n-\n     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697061542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,7 @@\n      # pour recupérer le detail d'une \n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n+\n+    \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697067029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,9 @@\n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n \n+    def def new\n+      @ = .new\n+    end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697076356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n \n-    def def new\n+     def new\n       @ = .new\n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697081819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,8 @@\n      @blague = Blague.find(params[:id])\n     end\n \n      def new\n-      @ = .new\n+   \n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697091335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n \n-     def new\n+   def new\n    \n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697100933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n \n-   def new\n+    def new\n    \n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727697107041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,10 @@\n \n     def new\n    \n     end\n+\n+    def new\n+   \n+    end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702147574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,12 +12,12 @@\n      @blague = Blague.find(params[:id])\n     end\n \n     def new\n-   \n+      \n     end\n \n-    def new\n+    def create\n    \n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702156553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n      @blague = Blague.find(params[:id])\n     end\n \n     def new\n-      \n+      @blague = \n     end\n \n     def create\n    \n"
+                },
+                {
+                    "date": 1727702172524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,12 +12,12 @@\n      @blague = Blague.find(params[:id])\n     end\n \n     def new\n-      @blague = \n+      @blague = Blague.new\n     end\n \n     def create\n-   \n+    \n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702929542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,8 @@\n       @blague = Blague.new\n     end\n \n     def create\n-    \n+    @\n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702936056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,8 @@\n       @blague = Blague.new\n     end\n \n     def create\n-    @\n+     \n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702942515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,8 @@\n       @blague = Blague.new\n     end\n \n     def create\n-     \n+     Blague.create\n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702956421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,8 @@\n       @blague = Blague.new\n     end\n \n     def create\n-     Blague.create\n+     Blague.create(pa)\n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727702963776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,8 @@\n       @blague = Blague.new\n     end\n \n     def create\n-     Blague.create(pa)\n+     Blague.create(params[])\n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703008003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,8 @@\n       @blague = Blague.new\n     end\n \n     def create\n-     Blague.create(params[])\n+     Blague.create(params[:blague])\n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703034886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,8 @@\n       @blague = Blague.new\n     end\n \n     def create\n-     Blague.create(params[:blague])\n+     Blague.create(params)\n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703043843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,8 @@\n       @blague = Blague.new\n     end\n \n     def create\n-     Blague.create(params)\n+     Blague.create(params_blague)\n     end\n     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703052459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n       @blague = Blague.new\n     end\n \n     def create\n-     Blague.create(params_blague)\n+     Blague.create(params_blague())\n     end\n     \n+    \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703060999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,15 +10,15 @@\n      # pour recupérer le detail d'une \n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n-\n+# la methode \n     def new\n       @blague = Blague.new\n     end\n \n     def create\n      Blague.create(params_blague())\n     end\n     \n-    \n+\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703069723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n      # pour recupérer le detail d'une \n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n-# la methode \n+# la methode pour aller au nivau\n     def new\n       @blague = Blague.new\n     end\n \n"
+                },
+                {
+                    "date": 1727703081683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n      # pour recupérer le detail d'une \n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n-# la methode pour aller au nivau\n+# la methode pour aller au nivaux du formulair pour ajouter\n     def new\n       @blague = Blague.new\n     end\n \n"
+                },
+                {
+                    "date": 1727703091191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n      # pour recupérer le detail d'une \n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n-# la methode pour aller au nivaux du formulair pour ajouter\n+    # la methode pour aller au nivaux du formulair pour ajouter une bla\n     def new\n       @blague = Blague.new\n     end\n \n"
+                },
+                {
+                    "date": 1727703100098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,13 +10,13 @@\n      # pour recupérer le detail d'une \n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n-    # la methode pour aller au nivaux du formulair pour ajouter une bla\n+    # la methode pour aller au nivaux du formulair pour ajouter une blague\n     def new\n       @blague = Blague.new\n     end\n-\n+     \n     def create\n      Blague.create(params_blague())\n     end\n     \n"
+                },
+                {
+                    "date": 1727703114915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     # la methode pour aller au nivaux du formulair pour ajouter une blague\n     def new\n       @blague = Blague.new\n     end\n-     \n+    # la methode  \n     def create\n      Blague.create(params_blague())\n     end\n     \n"
+                },
+                {
+                    "date": 1727703126333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     # la methode pour aller au nivaux du formulair pour ajouter une blague\n     def new\n       @blague = Blague.new\n     end\n-    # la methode  \n+    # la methode pour executer la  \n     def create\n      Blague.create(params_blague())\n     end\n     \n"
+                },
+                {
+                    "date": 1727703149428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     # la methode pour aller au nivaux du formulair pour ajouter une blague\n     def new\n       @blague = Blague.new\n     end\n-    # la methode pour executer la  \n+    # la methode pour executer le formulaire d'ajout \n     def create\n      Blague.create(params_blague())\n     end\n     \n"
+                },
+                {
+                    "date": 1727703303165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,8 @@\n     # la methode pour executer le formulaire d'ajout \n     def create\n      Blague.create(params_blague())\n     end\n+    # creation d'une metode priv\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703310452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n     # la methode pour executer le formulaire d'ajout \n     def create\n      Blague.create(params_blague())\n     end\n-    # creation d'une metode priv\n+    # creation d'une metode priver \n+    privat\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703316766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,10 @@\n     def create\n      Blague.create(params_blague())\n     end\n     # creation d'une metode priver \n-    privat\n+    private\n+\n+    def pa\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703324930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,10 @@\n     end\n     # creation d'une metode priver \n     private\n \n-    def pa\n+    def params_blague\n+      \n+    end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703334136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,13 +18,14 @@\n     # la methode pour executer le formulaire d'ajout \n     def create\n      Blague.create(params_blague())\n     end\n+\n     # creation d'une metode priver \n     private\n \n     def params_blague\n-      \n+     \n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703340907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     # creation d'une metode priver \n     private\n \n     def params_blague\n-     \n+     params.requi\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703347919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     # creation d'une metode priver \n     private\n \n     def params_blague\n-     params.requi\n+     params.require\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703356375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     # creation d'une metode priver \n     private\n \n     def params_blague\n-     params.require\n+     params.require(:)\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703362324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     # creation d'une metode priver \n     private\n \n     def params_blague\n-     params.require(:)\n+     params.require(:blague.per)\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703375066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     # creation d'une metode priver \n     private\n \n     def params_blague\n-     params.require(:blague.per)\n+     params.require(:blague.permit(:nom))\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703389672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,12 @@\n     # creation d'une metode priver \n     private\n \n     def params_blague\n-     params.require(:blague.permit(:nom))\n+     params.require(:blague.permit(:nom, :context \"a context\" do\n+      \n+     end\n+     ))\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703396127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,12 +23,9 @@\n     # creation d'une metode priver \n     private\n \n     def params_blague\n-     params.require(:blague.permit(:nom, :context \"a context\" do\n-      \n-     end\n-     ))\n+     params.require(:blague.permit(:nom, :contenue,))\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703403123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n     # creation d'une metode priver \n     private\n \n     def params_blague\n-     params.require(:blague.permit(:nom, :contenue,))\n+     params.require(:blague.permit(:nom, :contenue, :auteu))\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703453233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,16 +16,16 @@\n       @blague = Blague.new\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n-     Blague.create(params_blague())\n+     Blague.create(params_blague(:))\n     end\n \n     # creation d'une metode priver \n     private\n \n     def params_blague\n-     params.require(:blague.permit(:nom, :contenue, :auteu))\n+     params.require(:blague.permit(:nom, :contenue, :auteur))\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703460046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,16 +16,16 @@\n       @blague = Blague.new\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n-     Blague.create(params_blague(:))\n+     Blague.create(params_blague(:blague))\n     end\n \n     # creation d'une metode priver \n-    private\n+    # private\n \n-    def params_blague\n-     params.require(:blague.permit(:nom, :contenue, :auteur))\n-    end\n+    # def params_blague\n+    #  params.require(:blague.permit(:nom, :contenue, :auteur))\n+    # end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703466472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,9 @@\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n      Blague.create(params_blague(:blague))\n+     redire\n     end\n \n     # creation d'une metode priver \n     # private\n"
+                },
+                {
+                    "date": 1727703474486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n      Blague.create(params_blague(:blague))\n-     redire\n+     redirect_to blague_path\n     end\n \n     # creation d'une metode priver \n     # private\n"
+                },
+                {
+                    "date": 1727703487818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n      Blague.create(params_blague(:blague))\n-     redirect_to blague_path\n+     redirect_to blagues_path\n     end\n \n     # creation d'une metode priver \n     # private\n"
+                },
+                {
+                    "date": 1727703609674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       @blague = Blague.new\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n-     Blague.create(params_blague(:blague))\n+     Blague.create(params_blague())\n      redirect_to blagues_path\n     end\n \n     # creation d'une metode priver \n"
+                },
+                {
+                    "date": 1727703674868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,12 +21,12 @@\n      redirect_to blagues_path\n     end\n \n     # creation d'une metode priver \n-    # private\n+    private\n \n-    # def params_blague\n-    #  params.require(:blague.permit(:nom, :contenue, :auteur))\n-    # end\n+    def params_blague\n+     params.require(:blague.permit(:nom, :contenue, :auteur))\n+    end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727703809791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       @blague = Blague.new\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n-     Blague.create(params_blague())\n+     Blague.create(bla)\n      redirect_to blagues_path\n     end\n \n     # creation d'une metode priver \n"
+                },
+                {
+                    "date": 1727703816342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       @blague = Blague.new\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n-     Blague.create(bla)\n+     Blague.create(blagues_par)\n      redirect_to blagues_path\n     end\n \n     # creation d'une metode priver \n"
+                },
+                {
+                    "date": 1727703911126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,16 +16,16 @@\n       @blague = Blague.new\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n-     Blague.create(blagues_par)\n+     Blague.create(blagues_params)\n      redirect_to blagues_path\n     end\n \n     # creation d'une metode priver \n     private\n \n-    def params_blague\n+    def \n      params.require(:blague.permit(:nom, :contenue, :auteur))\n     end\n     \n \n"
+                },
+                {
+                    "date": 1727703919139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     end\n \n     # creation d'une metode priver \n     private\n-\n+  \n     def \n      params.require(:blague.permit(:nom, :contenue, :auteur))\n     end\n     \n"
+                },
+                {
+                    "date": 1727703934036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n \n     # creation d'une metode priver \n     private\n   \n-    def \n+    def blagues_params\n      params.require(:blague.permit(:nom, :contenue, :auteur))\n     end\n     \n \n"
+                },
+                {
+                    "date": 1727703982941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     # creation d'une metode priver \n     private\n   \n     def blagues_params\n-     params.require(:blague.permit(:nom, :contenue, :auteur))\n+     paramsrequire(:blague.permit(:nom, :contenue, :auteur))\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727704137546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     # creation d'une metode priver \n     private\n   \n     def blagues_params\n-     paramsrequire(:blague.permit(:nom, :contenue, :auteur))\n+     params.require(:blagueà.permit(:nom, :contenue, :auteur))\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727704161087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n     # creation d'une metode priver \n     private\n   \n     def blagues_params\n-     params.require(:blagueà.permit(:nom, :contenue, :auteur))\n+     params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727704241007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,8 @@\n     end\n \n     # creation d'une metode priver \n     private\n-  \n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n"
+                },
+                {
+                    "date": 1727704678389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       @blague = Blague.new\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n-     Blague.create(blagues_params)\n+      Blague.create(blagues_params)\n      redirect_to blagues_path\n     end\n \n     # creation d'une metode priver \n"
+                },
+                {
+                    "date": 1727704690328,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,10 +16,10 @@\n       @blague = Blague.new\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n-      Blague.create(blagues_params)\n-     redirect_to blagues_path\n+      @blague =  Blague.create(blagues_params)\n+                 redirect_to blagues_path\n     end\n \n     # creation d'une metode priver \n     private\n"
+                },
+                {
+                    "date": 1727704743841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       @blague = Blague.new\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n-      @blague =  Blague.create(blagues_params)\n+      @blague =  Blague.ne(blagues_params)\n                  redirect_to blagues_path\n     end\n \n     # creation d'une metode priver \n"
+                },
+                {
+                    "date": 1727704750211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,10 +16,12 @@\n       @blague = Blague.new\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n-      @blague =  Blague.ne(blagues_params)\n+      @blague =  Blague.new(blagues_params)\n                  redirect_to blagues_path\n+\n+                 if\n     end\n \n     # creation d'une metode priver \n     private\n"
+                },
+                {
+                    "date": 1727704757903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     def create\n       @blague =  Blague.new(blagues_params)\n                  redirect_to blagues_path\n \n-                 if\n+                 if @\n     end\n \n     # creation d'une metode priver \n     private\n"
+                },
+                {
+                    "date": 1727704763085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     def create\n       @blague =  Blague.new(blagues_params)\n                  redirect_to blagues_path\n \n-                 if @\n+                 if @blague.save\n     end\n \n     # creation d'une metode priver \n     private\n"
+                },
+                {
+                    "date": 1727704770373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     def create\n       @blague =  Blague.new(blagues_params)\n                  redirect_to blagues_path\n \n-                 if @blague.save\n+                 if @blague.after_save :method\n     end\n \n     # creation d'une metode priver \n     private\n"
+                },
+                {
+                    "date": 1727704775849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,10 @@\n     def create\n       @blague =  Blague.new(blagues_params)\n                  redirect_to blagues_path\n \n-                 if @blague.after_save :method\n+                 if @blague.after_save :\n+                  \n     end\n \n     # creation d'une metode priver \n     private\n"
+                },
+                {
+                    "date": 1727704804056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,12 +17,12 @@\n     end\n     # la methode pour executer le formulaire d'ajout \n     def create\n       @blague =  Blague.new(blagues_params)\n-                 redirect_to blagues_path\n+      \n+      if @blague.after_save \n+        redirect_to blagues_path\n \n-                 if @blague.after_save :\n-                  \n     end\n \n     # creation d'une metode priver \n     private\n"
+                },
+                {
+                    "date": 1727704811286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,8 +20,9 @@\n       @blague =  Blague.new(blagues_params)\n       \n       if @blague.after_save \n         redirect_to blagues_path\n+      el  \n \n     end\n \n     # creation d'une metode priver \n"
+                },
+                {
+                    "date": 1727704819071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,15 @@\n       @blague =  Blague.new(blagues_params)\n       \n       if @blague.after_save \n         redirect_to blagues_path\n-      el  \n+      \n+      if condition\n+        \n+      else\n+        \n+      end\n+        \n \n     end\n \n     # creation d'une metode priver \n"
+                },
+                {
+                    "date": 1727704829276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,9 @@\n     # la methode pour executer le formulaire d'ajout \n     def create\n       @blague =  Blague.new(blagues_params)\n       \n-      if @blague.after_save \n-        redirect_to blagues_path\n+      if\n       \n       if condition\n         \n       else\n"
+                },
+                {
+                    "date": 1727704839022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,11 +18,10 @@\n     # la methode pour executer le formulaire d'ajout \n     def create\n       @blague =  Blague.new(blagues_params)\n       \n-      if\n-      \n-      if condition\n+      if  @blague.after_save \n+        redirect_to blagues_path\n         \n       else\n         \n       end\n"
+                },
+                {
+                    "date": 1727704847661,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,9 @@\n       if  @blague.after_save \n         redirect_to blagues_path\n         \n       else\n+        render :\n         \n       end\n         \n \n"
+                },
+                {
+                    "date": 1727704945407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,13 +18,13 @@\n     # la methode pour executer le formulaire d'ajout \n     def create\n       @blague =  Blague.new(blagues_params)\n       \n-      if  @blague.after_save \n+      if  @blague.save \n         redirect_to blagues_path\n         \n       else\n-        render :\n+        render :new\n         \n       end\n         \n \n"
+                },
+                {
+                    "date": 1727706140937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     def create\n       @blague =  Blague.new(blagues_params)\n       \n       if  @blague.save \n-        redirect_to blagues_path\n+        redirect_to @blague, notice: \"La blague a été publiée avec succès.\"\n         \n       else\n         render :new\n         \n"
+                },
+                {
+                    "date": 1727706605073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,9 @@\n     # la methode pour aller au nivaux du formulair pour ajouter une blague\n     def new\n       @blague = Blague.new\n     end\n+    \n     # la methode pour executer le formulaire d'ajout \n     def create\n       @blague =  Blague.new(blagues_params)\n       \n"
+                },
+                {
+                    "date": 1727707400287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,13 +10,14 @@\n      # pour recupérer le detail d'une \n      # ressources au niveau de la base de donnéés\n      @blague = Blague.find(params[:id])\n     end\n+\n     # la methode pour aller au nivaux du formulair pour ajouter une blague\n     def new\n       @blague = Blague.new\n     end\n-    \n+\n     # la methode pour executer le formulaire d'ajout \n     def create\n       @blague =  Blague.new(blagues_params)\n       \n@@ -36,6 +37,6 @@\n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n-\n+     :edit,\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707405709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,6 +37,6 @@\n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n-     :edit,\n+     def :edit,\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707412857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,5 +38,6 @@\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n      def :edit,\n+     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707423957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,7 +37,10 @@\n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n-     def :edit,\n+     def def edit\n+      @ = .find()\n      end\n+     \n+     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707434275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,10 +37,6 @@\n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n-     def def edit\n-      @ = .find()\n-     end\n      \n-     end\n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707444278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,6 +37,9 @@\n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n+     def edit\n+      @blague = .find()\n+     end\n      \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707456752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,8 @@\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n      def edit\n-      @blague = .find()\n+      @blague = .Blaguefind()\n      end\n      \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707462993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,8 @@\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n      def edit\n-      @blague = .Blaguefind()\n+      @blague = .Blague.find(params)\n      end\n      \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707476411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,10 @@\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n      def edit\n-      @blague = .Blague.find(params)\n+      @blague = .Blague.find(params[:id])\n      end\n+\n      \n+     \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707482315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,7 +41,17 @@\n      def edit\n       @blague = .Blague.find(params[:id])\n      end\n \n+     def update\n+      @object = Object.find(params[:id])\n+         if @object.update_attributes(params[:object])\n+           flash[:success] = \"Object was successfully updated\"\n+           redirect_to @object\n+         else\n+           flash[:error] = \"Something went wrong\"\n+           render 'edit'\n+         end\n+     end\n      \n      \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727707489829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,12 +42,12 @@\n       @blague = .Blague.find(params[:id])\n      end\n \n      def update\n-      @object = Object.find(params[:id])\n-         if @object.update_attributes(params[:object])\n+      @blague = Object.find(params[:id])\n+         if @blague.update_attributes(params[:blague])\n            flash[:success] = \"Object was successfully updated\"\n-           redirect_to @object\n+           redirect_to @blague\n          else\n            flash[:error] = \"Something went wrong\"\n            render 'edit'\n          end\n"
+                },
+                {
+                    "date": 1727707498625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n       @blague = .Blague.find(params[:id])\n      end\n \n      def update\n-      @blague = Object.find(params[:id])\n+      @blague = Blague.find(params[:id])\n          if @blague.update_attributes(params[:blague])\n            flash[:success] = \"Object was successfully updated\"\n            redirect_to @blague\n          else\n"
+                },
+                {
+                    "date": 1727707506634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     \n      def edit\n-      @blague = .Blague.find(params[:id])\n+      @blague = \n      end\n \n      def update\n       @blague = Blague.find(params[:id])\n"
+                },
+                {
+                    "date": 1727707529248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     private\n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n-    \n+    # \n      def edit\n       @blague = \n      end\n \n"
+                },
+                {
+                    "date": 1727707537183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     private\n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n-    # \n+    # methode pour afficher la vue \n      def edit\n       @blague = \n      end\n \n"
+                },
+                {
+                    "date": 1727707543804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n     private\n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n-    # methode pour afficher la vue \n+    # methode pour afficher la vue afin de \n      def edit\n       @blague = \n      end\n \n"
+                },
+                {
+                    "date": 1727707560732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,13 +36,13 @@\n     private\n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n-    # methode pour afficher la vue afin de \n+    # methode pour afficher la vue afin de modifier \n      def edit\n       @blague = \n      end\n-\n+# methode pour la logique de modifi\n      def update\n       @blague = Blague.find(params[:id])\n          if @blague.update_attributes(params[:blague])\n            flash[:success] = \"Object was successfully updated\"\n"
+                },
+                {
+                    "date": 1727707617025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n     # methode pour afficher la vue afin de modifier \n      def edit\n       @blague = \n      end\n-# methode pour la logique de modifi\n+# methode pour la logique de modifications \n      def update\n       @blague = Blague.find(params[:id])\n          if @blague.update_attributes(params[:blague])\n            flash[:success] = \"Object was successfully updated\"\n"
+                },
+                {
+                    "date": 1727707623715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n     # methode pour afficher la vue afin de modifier \n      def edit\n       @blague = \n      end\n-# methode pour la logique de modifications \n+# methode pour la logique de modifications de la blague\n      def update\n       @blague = Blague.find(params[:id])\n          if @blague.update_attributes(params[:blague])\n            flash[:success] = \"Object was successfully updated\"\n"
+                },
+                {
+                    "date": 1727707634501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n     # methode pour afficher la vue afin de modifier \n      def edit\n       @blague = \n      end\n-# methode pour la logique de modifications de la blague\n+    # methode pour la logique de modifications de la blague\n      def update\n       @blague = Blague.find(params[:id])\n          if @blague.update_attributes(params[:blague])\n            flash[:success] = \"Object was successfully updated\"\n"
+                },
+                {
+                    "date": 1727707641380,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n      def edit\n       @blague = \n      end\n     # methode pour la logique de modifications de la blague\n-     def update\n+    def update\n       @blague = Blague.find(params[:id])\n          if @blague.update_attributes(params[:blague])\n            flash[:success] = \"Object was successfully updated\"\n            redirect_to @blague\n"
+                },
+                {
+                    "date": 1727707727663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     # methode pour afficher la vue afin de modifier \n      def edit\n-      @blague = \n+      @blague =  bal\n      end\n     # methode pour la logique de modifications de la blague\n     def update\n       @blague = Blague.find(params[:id])\n"
+                },
+                {
+                    "date": 1727707735251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     # methode pour afficher la vue afin de modifier \n      def edit\n-      @blague =  bal\n+      @blague =  Blague.find()\n      end\n     # methode pour la logique de modifications de la blague\n     def update\n       @blague = Blague.find(params[:id])\n"
+                },
+                {
+                    "date": 1727707747421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     # methode pour afficher la vue afin de modifier \n      def edit\n-      @blague =  Blague.find()\n+      @blague =  Blague.find(pa)\n      end\n     # methode pour la logique de modifications de la blague\n     def update\n       @blague = Blague.find(params[:id])\n"
+                },
+                {
+                    "date": 1727707758125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n     # methode pour afficher la vue afin de modifier \n      def edit\n-      @blague =  Blague.find(pa)\n+      @blague =  Blague.find(params[:id])\n      end\n     # methode pour la logique de modifications de la blague\n     def update\n       @blague = Blague.find(params[:id])\n"
+                },
+                {
+                    "date": 1727708143183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,9 @@\n     # methode pour afficher la vue afin de modifier \n      def edit\n       @blague =  Blague.find(params[:id])\n      end\n+     \n     # methode pour la logique de modifications de la blague\n     def update\n       @blague = Blague.find(params[:id])\n          if @blague.update_attributes(params[:blague])\n"
+                },
+                {
+                    "date": 1727708368445,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,13 +36,11 @@\n     private\n     def blagues_params\n      params.require(:blague).permit(:nom, :contenue, :auteur)\n     end\n-    # methode pour afficher la vue afin de modifier \n-     def edit\n-      @blague =  Blague.find(params[:id])\n-     end\n-     \n+\n+ \n+\n     # methode pour la logique de modifications de la blague\n     def update\n       @blague = Blague.find(params[:id])\n          if @blague.update_attributes(params[:blague])\n"
+                },
+                {
+                    "date": 1727708375379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,12 @@\n     # la methode pour aller au nivaux du formulair pour ajouter une blague\n     def new\n       @blague = Blague.new\n     end\n-\n+    # methode pour afficher la vue afin de modifier \n+        def edit\n+          @blague =  Blague.find(params[:id])\n+         end\n     # la methode pour executer le formulaire d'ajout \n     def create\n       @blague =  Blague.new(blagues_params)\n       \n"
+                },
+                {
+                    "date": 1727708381458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,11 +16,11 @@\n     def new\n       @blague = Blague.new\n     end\n     # methode pour afficher la vue afin de modifier \n-        def edit\n-          @blague =  Blague.find(params[:id])\n-         end\n+    def edit\n+       @blague =  Blague.find(params[:id])\n+    end\n     # la methode pour executer le formulaire d'ajout \n     def create\n       @blague =  Blague.new(blagues_params)\n       \n"
+                },
+                {
+                    "date": 1727708392127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n  \n \n     # methode pour la logique de modifications de la blague\n     def update\n-      @blague = Blague.find(params[:id])\n+      # @blague = Blague.find(params[:id])\n          if @blague.update_attributes(params[:blague])\n            flash[:success] = \"Object was successfully updated\"\n            redirect_to @blague\n          else\n"
+                },
+                {
+                    "date": 1727708399422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,15 +45,15 @@\n \n     # methode pour la logique de modifications de la blague\n     def update\n       # @blague = Blague.find(params[:id])\n-         if @blague.update_attributes(params[:blague])\n-           flash[:success] = \"Object was successfully updated\"\n-           redirect_to @blague\n-         else\n-           flash[:error] = \"Something went wrong\"\n-           render 'edit'\n-         end\n-     end\n+    #      if @blague.update_attributes(params[:blague])\n+    #        flash[:success] = \"Object was successfully updated\"\n+    #        redirect_to @blague\n+    #      else\n+    #        flash[:error] = \"Something went wrong\"\n+    #        render 'edit'\n+    #      end\n+    #  end\n      \n      \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727708414449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,15 +45,8 @@\n \n     # methode pour la logique de modifications de la blague\n     def update\n       # @blague = Blague.find(params[:id])\n-    #      if @blague.update_attributes(params[:blague])\n-    #        flash[:success] = \"Object was successfully updated\"\n-    #        redirect_to @blague\n-    #      else\n-    #        flash[:error] = \"Something went wrong\"\n-    #        render 'edit'\n-    #      end\n-    #  end\n+  \n      \n      \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727708562137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,8 @@\n  \n \n     # methode pour la logique de modifications de la blague\n     def update\n-      # @blague = Blague.find(params[:id])\n-  \n+    end\n      \n      \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727708570086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n  \n \n     # methode pour la logique de modifications de la blague\n     def update\n-      @blague = \n+      @blague = B\n     end\n      \n      \n end    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1727708590145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,9 @@\n \n     # methode pour la logique de modifications de la blague\n     def update\n       @blague = Blague.find(params[:id])\n-      if \n+      if @\n     end\n      \n      \n end    \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1727691520014,
+            "name": "Commit-0",
+            "content": "cla"
+        }
+    ]
+}
